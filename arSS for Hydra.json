@@ -2,6 +2,14 @@
   "name": "arSS for Hydra",
   "downloads": [
     {
+      "title": "DOOM 64",
+      "uris": [
+        "magnet:?xt=urn:btih:BF27GEK2C7PRGNJKZHEGRCKUVWLR7ICW&dn=Setup&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce"
+      ],
+      "uploadDate": "2025-11-01T00:00:00.000Z",
+      "fileSize": "51 MB"
+    },
+    {
       "title": "Geometry Dash",
       "uris": [
         "magnet:?xt=urn:btih:L3PK4LPGUXXSL3T5Y7LPJFB3N4FXUPLH&dn=Geometry%20Dash&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce"
