@@ -2,6 +2,14 @@
   "name": "arSS for Hydra",
   "downloads": [
     {
+      "title": "Gore Box",
+      "uris": [
+        "magnet:?xt=urn:btih:M5A4F2W7ENNXQ6E6OPQSFTF54WHGY52W&dn=Setup&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce"
+      ],
+      "uploadDate": "2025-11-01T00:00:00.000Z",
+      "fileSize": "413 MB"
+    },
+    {
       "title": "DOOM 64",
       "uris": [
         "magnet:?xt=urn:btih:BF27GEK2C7PRGNJKZHEGRCKUVWLR7ICW&dn=Setup&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce"
