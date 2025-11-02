@@ -42,6 +42,14 @@
       "fileSize": "413 MB"
     },
     {
+      "title": "DOOM 64",
+      "uris": [
+        "magnet:?xt=urn:btih:FNR7LDCZCKPH2CRAJO65QLY3NJIBMR4O&dn=Setup&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce"
+      ],
+      "uploadDate": "2025-11-02T00:00:00.000Z",
+      "fileSize": "86 MB"
+    },
+    {
       "title": "Geometry Dash",
       "uris": [
         "magnet:?xt=urn:btih:L3PK4LPGUXXSL3T5Y7LPJFB3N4FXUPLH&dn=Geometry%20Dash&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce"
@@ -56,14 +64,6 @@
       ],
       "uploadDate": "2025-11-01T00:00:00.000Z",
       "fileSize": "1.8 GB"
-    },
-    {
-      "title": "DOOM 64",
-      "uris": [
-        "magnet:?xt=urn:btih:FNR7LDCZCKPH2CRAJO65QLY3NJIBMR4O&dn=Setup&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce"
-      ],
-      "uploadDate": "2025-11-02T00:00:00.000Z",
-      "fileSize": "86 MB"
     }
   ]
 }
