@@ -2,6 +2,14 @@
   "name": "arSS for Hydra",
   "downloads": [
     {
+      "title": "RAGDORE by arSS [portable]",
+      "uris": [
+        "magnet:?xt=urn:btih:PJPZ7VPH43QLNEXYKN6P7XQP43BQUGHV&dn=RAGDORE&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce"
+      ],
+      "uploadDate": "2025-11-03T00:00:00.000Z",
+      "fileSize": "1.6 GB"
+    },
+    {
       "title": "OpenTTD by arSS",
       "uris": [
         "magnet:?xt=urn:btih:HU2EKC36ZICNEISU5PG4Z6QJXHNHZLDX&dn=OpenTTD%20by%20arSS&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce"
