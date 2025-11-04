@@ -2,6 +2,14 @@
   "name": "arSS for Hydra",
   "downloads": [
     {
+      "title": "Half Sword Demo",
+      "uris": [
+        "magnet:?xt=urn:btih:76LBYT2NQJAMNCYRVY6J6QZJILNKVPWQ&dn=Half%20Sword%20Demo&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce"
+      ],
+      "uploadDate": "2025-11-04T00:00:00.000Z",
+      "fileSize": "2.8 GB"
+    },
+    {
       "title": "Project Castaway (not by arSS)",
       "uris": [
         "magnet:?xt=urn:btih:GN3QM63QRFMGHBTD2LTYR3ISCXE34YCK&dn=Project-Castaway-v0.1.44a&tr=http%3A%2F%2Fbt.t-ru.org%2Fann"
