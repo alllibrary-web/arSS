@@ -2,6 +2,14 @@
   "name": "arSS for Hydra",
   "downloads": [
     {
+      "title": "Half Life 2 build (not by arSS)",
+      "uris": [
+        "magnet:?xt=urn:btih:47BJG72K5T7I7VFKRWCB7GPZJANE6BQX&dn=Half-Life%202%20(20th%20Anniversary)%20(2004%20-2007-2024)&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce"
+      ],
+      "uploadDate": "2025-11-05T00:00:00.000Z",
+      "fileSize": "13.38 GB"
+    },
+    {
       "title": "Factorio by arSS",
       "uris": [
         "magnet:?xt=urn:btih:OONFQ2TAQN5ZOCVD53ROROBV3OL7FRQW&dn=Factorio%20by%20arSS&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce"
