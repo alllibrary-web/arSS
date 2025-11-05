@@ -2,9 +2,10 @@
   "name": "arSS for Hydra",
   "downloads": [
     {
-      "title": "Lossless Scaling by arSS",
+      "title": "Lossless Scaling (not by arSS)",
       "uris": [
-        "magnet:?xt=urn:btih:CSVK3NZXJ52IT45KQE6BFUVA6OOEQKX7&dn=Lossless%20Scaling%20by%20arSS&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce"
+        "magnet:?xt=urn:btih:CSVK3NZXJ52IT45KQE6BFUVA6OOEQKX7&dn=Lossless%20Scaling%20by%20arSS&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce",
+        "magnet:?xt=urn:btih:YYTEUKCFWUEPM7NQR7Y4NDUKTPMTGEQB&dn=Lossless.Scaling.v3.1.0.2.rar&xl=60479695"
       ],
       "uploadDate": "2025-11-05T00:00:00.000Z",
       "fileSize": "59.25 MB"
