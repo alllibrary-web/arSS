@@ -66,14 +66,6 @@
       "fileSize": "1.85 GB"
     },
     {
-      "title": "CardLife: Creative Survival by arSS",
-      "uris": [
-        "magnet:?xt=urn:btih:MFIPHIDE7NFQN3ZC4QVCFVGHC4QMFXLD&dn=Cardlife%20by%20arSS&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce"
-      ],
-      "uploadDate": "2025-11-06T00:00:00.000Z",
-      "fileSize": "817.75 MB"
-    },
-    {
       "title": "Undertale by arSS",
       "uris": [
         "magnet:?xt=urn:btih:BOC6TK2YURY7I5ECVGODPYM6IUTJKV2Z&dn=Undertale%20by%20arSS&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce"
@@ -160,6 +152,14 @@
       ],
       "uploadDate": "2023-03-31T00:00:00.000Z",
       "fileSize": "114.53 GB"
+    },
+    {
+      "title": "CardLife: Creative Survival by arSS",
+      "uris": [
+        "magnet:?xt=urn:btih:MFIPHIDE7NFQN3ZC4QVCFVGHC4QMFXLD&dn=Cardlife%20by%20arSS&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce"
+      ],
+      "uploadDate": "2025-11-06T00:00:00.000Z",
+      "fileSize": "817.75 MB"
     },
     {
       "title": "Dying Light 2015 build+DLC-Definitive Edition (not by arSS)",
