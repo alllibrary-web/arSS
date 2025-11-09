@@ -2,12 +2,20 @@
   "name": "arSS for Hydra",
   "downloads": [
     {
+      "title": "LethalCompany-v73-RUS-by-Pioneer",
+      "uris": [
+        "magnet:?xt=urn:btih:LBG3YTHH76CPCRRWXN6F2TAHG3M3HKFY&dn=Lethal%20Company%20v73%20by%20Pioneer&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce"
+      ],
+      "uploadDate": "2025-11-09T00:00:00.000Z",
+      "fileSize": "429.03 GB"
+    },
+    {
       "title": "Lethal.Company.v73",
       "uris": [
         "magnet:?xt=urn:btih:F4ENSYRNTNO3YMMQMJ25ELKV3SYAEDZO&dn=Lethal%20Company&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce"
       ],
       "uploadDate": "2025-11-09T00:00:00.000Z",
-      "fileSize": "429.03 GB"
+      "fileSize": "450 MB"
     },
     {
       "title": "Project Zomboid P RUS + ENG + 19 (2013 RPG) (42.12.3) Portable",
