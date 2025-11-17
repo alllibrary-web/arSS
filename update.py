@@ -42,7 +42,7 @@ except Exception as e:
 
 # ================= 2. ПОДКЛЮЧЕНИЕ К GITHUB =================
 
-g = Github(os.getenv("GITHUB_TOKEN"))
+g = Github(os.getenv("code"))
 
 repo = g.get_repo("alllibrary-web/arSS")
 file_path = "arSS for Hydra.json"
