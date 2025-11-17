@@ -1,0 +1,34 @@
+name: Auto Update Torrents
+
+# Когда запускать workflow
+on:
+  schedule:
+    - cron: "0 * * * *"   # каждый час
+  workflow_dispatch:       # позволяет запускать вручную
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Клонируем репозиторий
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    # 2. Устанавливаем Python
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+
+    # 3. Устанавливаем библиотеки
+    - name: Install dependencies
+      run: |
+        pip install requests beautifulsoup4 PyGithub
+
+    # 4. Запускаем скрипт update.py
+    - name: Run update.py
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}  # используем токен из секретов
+      run: |
+        python update.py
