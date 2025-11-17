@@ -4,63 +4,84 @@ from github import Github
 import json
 import os
 
-# ================= 1. ПАРСИНГ ВСЕХ СТРАНИЦ =================
+# ================= 1. ПАРСИНГ САЙТА =================
 
-base_url = "https://byrutgame.org"  # сайт
+BASE_URL = "https://byrutgame.org"
 items = []
 
 try:
-    # 1. Получаем главную страницу (или категорию с торрентами)
-    html = requests.get(base_url).text
+    print("Парсим сайт:", BASE_URL)
+    html = requests.get(BASE_URL, timeout=10).text
     soup = BeautifulSoup(html, "html.parser")
 
-    # 2. Ищем все ссылки на страницы с торрентами
-    # Меняем селектор под сайт, пример: все ссылки с "/torrent/"
+    # Ищем ссылки, содержащие "/torrent/"
     torrent_pages = [a['href'] for a in soup.select('a[href*="/torrent/"]')]
 
-    # 3. Проходим по каждой странице с торрентом
+    print(f"Найдено страниц с торрентами: {len(torrent_pages)}")
+
     for page in torrent_pages:
-        if not page.startswith("http"):
-            page = base_url + page
-        page_html = requests.get(page).text
-        page_soup = BeautifulSoup(page_html, "html.parser")
+        page_url = page if page.startswith("http") else BASE_URL + page
 
-        # 4. Ищем все ссылки на файлы .torrent на странице
-        for link in page_soup.select("a[href$='.torrent']"):
-            title = link.text.strip()
-            torrent_link = link['href']
-            if not torrent_link.startswith("http"):
-                torrent_link = base_url + torrent_link
+        try:
+            page_html = requests.get(page_url, timeout=10).text
+            page_soup = BeautifulSoup(page_html, "html.parser")
 
-            items.append({
-                "name": title,
-                "magnet": torrent_link  # можно позже конвертировать в magnet
-            })
+            # Ищем ссылки на .torrent файлы
+            torrent_links = page_soup.select("a[href$='.torrent']")
+
+            for link in torrent_links:
+                title = link.text.strip() or "Без названия"
+                torrent_url = link["href"]
+                if not torrent_url.startswith("http"):
+                    torrent_url = BASE_URL + torrent_url
+
+                items.append({
+                    "name": title,
+                    "magnet": torrent_url
+                })
+
+        except Exception as e:
+            print("Ошибка страницы:", page_url, "::", e)
 
 except Exception as e:
     print("Ошибка при парсинге сайта:", e)
 
+
 # ================= 2. ПОДКЛЮЧЕНИЕ К GITHUB =================
 
-g = Github(os.getenv("code"))
+print("Подключаемся к GitHub...")
 
+# ВАЖНО: именно GH_TOKEN !!!
+token = os.getenv("GITHUB_TOKEN")
+
+if not token:
+    raise SystemExit("ОШИБКА: GITHUB_TOKEN не получен! Проверь секрет GH_TOKEN в GitHub.")
+
+g = Github(token)
 repo = g.get_repo("alllibrary-web/arSS")
 file_path = "arSS for Hydra.json"
+
 file = repo.get_contents(file_path)
 
-# ================= 3. ЧИТАЕМ JSON =================
+# ================= 3. ЧИТАЕМ ТЕКУЩИЙ JSON =================
 
-data = json.loads(file.decoded_content.decode())
+try:
+    data = json.loads(file.decoded_content.decode())
+except Exception:
+    data = []
 
 # ================= 4. ДОБАВЛЯЕМ НОВЫЕ ТОРРЕНТЫ =================
 
+print(f"Добавляем {len(items)} новых торрентов...")
 data.extend(items)
 
 # ================= 5. СОХРАНЯЕМ НА GITHUB =================
 
 repo.update_file(
     path=file_path,
-    message="Auto update: all torrents from byrutgame.org",
+    message="Auto update from byrutgame.org",
     content=json.dumps(data, indent=4, ensure_ascii=False),
     sha=file.sha
 )
+
+print("Файл успешно обновлён!")
