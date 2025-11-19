@@ -2,6 +2,14 @@
   "name": "arSS for Hydra",
   "downloads": [
     {
+      "title": "Core Keeper GOG",
+      "uris": [
+        "magnet:?xt=urn:btih:FQ2VVQEQXCNV5D3HHZ5VCFTZI3WBY6OB&dn=core_keeper_85453&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce"
+      ],
+      "uploadDate": "2025-11-19T00:00:00.000Z",
+      "fileSize": "500 MB"
+    },
+    {
       "title": "Geometry Dash P ENG ENG (2014 Arcade) (2.2074) Portable",
       "uris": [
         "magnet:?xt=urn:btih:ILNOF5MUFA5SGJLO44FKKYR5DTL73I5B&dn=Geometry%20Dash.7z&xl=271328175&tr=http%3A%2F%2Fbt.t-ru.org%2Fann"
