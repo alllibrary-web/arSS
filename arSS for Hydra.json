@@ -2,6 +2,14 @@
   "name": "arSS for Hydra",
   "downloads": [
     {
+      "title": "Assasin's Creed Origins xatab",
+      "uris": [
+        "magnet:?xt=urn:btih:6QFDMNFKONL6SUCFI34ZFSOVN7JMZLWH&dn=Assassins%20Creed%20Origins%20by%20xatab&tr=http%3A%2F%2Fbt.t-ru.org%2Fann"
+      ],
+      "uploadDate": "2025-11-20T00:00:00.000Z",
+      "fileSize": "41.48 GB"
+    },
+    {
       "title": "Little Nightmares II GOG",
       "uris": [
         "magnet:?xt=urn:btih:EBGQTPMGMSAADH332UICOVPHKX53TZOL&dn=Little_Nightmares%20II_Enhanced_Edition_1165_(52002)_win_gog&tr=http%3A%2F%2Fbt.t-ru.org%2Fann"
@@ -2481,6 +2489,14 @@
       ],
       "uploadDate": "2025-11-02T00:00:00.000Z",
       "fileSize": "86 MB"
+    },
+    {
+      "title": "Geometry Dash",
+      "uris": [
+        "magnet:?xt=urn:btih:L3PK4LPGUXXSL3T5Y7LPJFB3N4FXUPLH&dn=Geometry%20Dash&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce"
+      ],
+      "uploadDate": "2025-11-01T00:00:00.000Z",
+      "fileSize": "322 MB"
     },
     {
       "title": "Hello Neighbor",
