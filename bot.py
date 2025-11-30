@@ -37,9 +37,9 @@ import webbrowser
 
 # Настройки
 BASE_URL = "https://online-fix.me"
-SESSION_FILE = "arSS_session.json"
-CONFIG_FILE = "arSS_config.json"
-DB_FILE = "arSS_database.db"
+SESSION_FILE = "arSS for Hydra_session.json"
+CONFIG_FILE = "arSS for Hydra_config.json"
+DB_FILE = "arSS for Hydra_database.db"
 
 # Исправление кодировки для Windows
 if sys.stdout.encoding != 'utf-8':
