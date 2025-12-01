@@ -2,6 +2,14 @@
   "name": "arSS for Hydra",
   "downloads": [
     {
+      "title": "Ride 5",
+      "uris": [
+        "magnet:?xt=urn:btih:VUIP7CW64GVM6GTEJ3W4XJPJJR7YE5HL&dn=RIDE%205%20(2023)&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce"
+      ],
+      "uploadDate": "2025-12-01T00:00:00.000Z",
+      "fileSize": "48.8 GB"
+    },
+    {
       "title": "Kingdom Come: Deliverance [Portable]",
       "uris": [
         "magnet:?xt=urn:btih:SLQURXQM3JUSNCS2XQSDP2XAPXUIDVV3&dn=Kingdom%20Come.%20Deliverance%20(2018)&tr=http%3A%2F%2Fbt.t-ru.org%2Fann"
@@ -160,6 +168,14 @@
       ],
       "uploadDate": "2025-11-22T00:00:00.000Z",
       "fileSize": "70.82 GB"
+    },
+    {
+      "title": "Battlefield™ 6",
+      "uris": [
+        "magnet:?xt=urn:btih:68363DCF90E396E786AFED87A8EC4D34AB606266&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann%3Fmagnet&dn=%5BDL%5D%20Battlefield%206%20%5BP%5D%20%5BENG%20%2F%20ENG%5D%20(2025%2C%20Action)%20(20800939%20%2B%209%20DLC)%20%5BPortable%5D"
+      ],
+      "uploadDate": "2025-11-22T00:00:00.000Z",
+      "fileSize": "102.74 GB"
     },
     {
       "title": "Battlefield 6 [P] [ENG / ENG] (2025, Action) (20800939 + 9 DLC) [Portable]",
