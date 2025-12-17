@@ -2,6 +2,14 @@
   "name": "arSS for Hydra",
   "downloads": [
     {
+      "title": "Blasphemous 2 GOG",
+      "uris": [
+        "magnet:?xt=urn:btih:XZ3OY5RM3HVBYEIRQ2UO3S6LAPQGKP7M&dn=blasphemous_2_windows_gog_(85594)&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce"
+      ],
+      "uploadDate": "2025-12-17T00:00:00.000Z",
+      "fileSize": "6.71 GB"
+    },
+    {
       "title": "Tabletop Simulator",
       "uris": [
         "magnet:?xt=urn:btih:4SM4BJ2DQBJ7WN7K7I5A7E6HYL235Q7K&dn=Tabletop%20Simulator&tr=https%3A%2F%2Ftorrent-xatab.com%2Fannounce"
